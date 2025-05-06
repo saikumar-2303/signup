@@ -15,7 +15,7 @@ public class SignupServlet extends HttpServlet {
 
         String url = "jdbc:mysql://sql8.freesqldatabase.com:3306/sql8777200";
         String user = "sql8777200";
-        String dbPassword = "your_db_password"; // Replace with your actual password
+        String dbPassword = "zAqZXHjs4E"; // Replace with your actual password
 
         response.setContentType("text/plain");
         PrintWriter out = response.getWriter();
