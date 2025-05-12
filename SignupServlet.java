@@ -19,11 +19,11 @@ public class SignupServlet extends HttpServlet{
 	    String password = req.getParameter("password");
 	    String number = req.getParameter("number");
 
-	    String host = System.getenv("DB_HOST");
-	    String port = System.getenv("DB_PORT");
-	    String dbName = System.getenv("DB_NAME");
-	    String user = System.getenv("DB_USER");
-	    String dbPassword = System.getenv("DB_PASSWORD");
+	    String host = "sql8.freesqldatabase.com";
+	    String port = "3306";
+	    String dbName = "sql8777200";
+	    String user = "sql8777200";
+	    String dbPassword ="zAqZXHjs4E";
 
 	    String url = "jdbc:mysql://" + host + ":" + port + "/" + dbName;
 
