@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mysql://sql12.freesqldatabase.com:3306/sq12778633";
-    private static final String USER = "sq12778633";
-    private static final String PASSWORD = "t5cim8ItH6";
+    String url = System.getenv("DB_URL");
+String user = System.getenv("DB_USER");
+String password = System.getenv("DB_PASSWORD");
     private static Connection connection;
 
     public static Connection getConnection() {
